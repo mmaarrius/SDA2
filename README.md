@@ -1,6 +1,13 @@
-# My implementation
+This project helped me gain practical experience with data structures such as binary trees and min-heaps, as well as algorithms including Huffman coding, BFS, DFS.
 
-    ! Look to `Tema2.pdf` !
+The project description can be found [here](./Tema%202.pdf)
+
+Run:  
+  
+    make
+    ./run_tests.sh
+
+# My implementation
 
 - Since every task needs to read from input file and create a binary tree, I handled this with `readAndCreateTree` function that uses a min-heap that stores pointers to the all tree nodes. The function repeatdly combines the two nodes with the smallest frequencies until only onde remains - the root of tree.
 - In ``main.c`` you'll find all you need to understand my approach. The other files contain the core infrastructure for the tree, queue and heap structures.
